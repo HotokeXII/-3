@@ -21,7 +21,7 @@ file.close()
 
 #3.запись в файл
 try:
-    with open('gdeblya', 'r') as file:
+    with open('nofile', 'r') as file:
         content = file.read()
     print(content)
 except FileNotFoundError:
